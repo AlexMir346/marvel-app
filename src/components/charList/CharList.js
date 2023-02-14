@@ -17,7 +17,6 @@ const CharList = (props) => {
   useEffect(() => {
     onRequest(offset, true);
   }, []);
-  console.log(offset);
 
   const onRequest = (offset, initial) => {
     initial ? setNewItemLoading(false) : setNewItemLoading(true);
